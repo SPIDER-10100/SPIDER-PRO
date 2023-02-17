@@ -1,5 +1,5 @@
 import os, sys
 try:
-    __import__("S5IDER_enc").menu()
+    __import__("SPIDER").menu()
 except Exception as e:
     exit(str(e))
